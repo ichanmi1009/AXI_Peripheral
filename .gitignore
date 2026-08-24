@@ -1,0 +1,46 @@
+# Vivado
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.sdb
+*.str
+*.wdb
+*.xsa
+*.bit
+
+# Vitis and Eclipse
+.metadata/
+Debug/
+Release/
+_ide/
+*.elf
+*.map
+*.o
+*.d
+
+# VCS and Verdi
+csrc/
+simv*
+ucli.key
+vc_hdrs.h
+verdiLog/
+novas.conf
+novas.rc
+*.fsdb
+*.vpd
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
