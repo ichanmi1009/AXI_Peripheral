@@ -180,9 +180,6 @@ TDR에 데이터를 Write한 뒤 CR에 0x0000_0189를 Write하여 전송을 시�
 
 ## FPGA 보드 검증
 
-MicroBlaze 기반 SoC 보드와 SPI Slave RAM 보드를 SCLK, MOSI, MISO, SS_n으로 연결했습니다. SW[0]이 1이면 Stopwatch 데이터를 Write하고, 0이면 같은 Address를 Read합니다. USB-UART로 연결한 Vitis Terminal에서 결과를 확인했습니다.
-
-![Basys 3 보드 연결 구조](docs/images/board_connection.png)
 
 ### Write 결과
 
